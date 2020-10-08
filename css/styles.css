@@ -8,6 +8,21 @@ body {
   background-color: #088ca5;
 }
 
+h1 {
+  color: white;
+  font-size: 200px;
+}
+
+h2 {
+  color: white;
+  font-size: 200px;
+}
+
+h3 {
+  color: white;
+  font-size: 150px;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -26,20 +41,4 @@ body {
     padding-right: 40px;
     padding-left: 40px;
   }
-}
-
-.first-paragraph {
-  width: 1fr;
-}
-
-.second-paragraph {
-  width: 1fr;
-}
-
-.third-paragraph {
-  grid-column: 3/4;
-}
-
-.fourth-paragraph {
-  grid-column: 4/5;
 }
