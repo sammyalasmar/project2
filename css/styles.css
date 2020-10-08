@@ -8,6 +8,11 @@ body {
   background-color: #088ca5;
 }
 
+.headlines {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 h1, h2, h3, h4, h5 {
   color: white;
   margin: 0;
@@ -71,7 +76,7 @@ h5 {
 .events {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-template-rows: 1fr 0.9fr 0.7fr 0.7fr 0.4fr 1fr;
+  /*grid-template-rows: 1fr .9fr .7fr .7fr .4fr 1fr*/
 }
 
 .container {
@@ -79,7 +84,7 @@ h5 {
 }
 @media (min-width: 400px) {
   .container {
-    padding: 62px;
+    padding: 25px;
   }
 }
 @media (min-width: 800px) {
@@ -89,7 +94,7 @@ h5 {
 }
 @media (min-width: 1280px) {
   .container {
-    padding-right: 90px;
+    padding-right: 120px;
     padding-left: 120px;
   }
 }
