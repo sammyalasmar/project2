@@ -57,3 +57,11 @@ h5 {
     padding-left: 40px;
   }
 }
+
+ul {
+  list-style-type: none;
+}
+
+.moretype {
+  font-size: 25px;
+}
