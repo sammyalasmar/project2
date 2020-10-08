@@ -1,1 +1,45 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #088ca5;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.container {
+  padding: 18px;
+}
+@media (min-width: 800px) {
+  .container {
+    padding: 32px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.first-paragraph {
+  width: 1fr;
+}
+
+.second-paragraph {
+  width: 1fr;
+}
+
+.third-paragraph {
+  grid-column: 3/4;
+}
+
+.fourth-paragraph {
+  grid-column: 4/5;
+}
