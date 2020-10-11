@@ -1,17 +1,103 @@
-/* Error: expected "{".
- *    ,
- * 19 | h1olor: white;
- *    |              ^
- *    '
- *   sass/styles.scss 19:14  root stylesheet */
+* {
+  box-sizing: border-box;
+}
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 19 \2502  h1olor: white;\a    \2502               ^\a    \2575 \a   sass/styles.scss 19:14  root stylesheet';
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #088ca5;
+}
+
+h1, h2, h3, h4, h5 {
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  font-size: 300px;
+}
+@media (max-width: 700px) {
+  h1 {
+    font-size: 200px;
+  }
+}
+
+h2 {
+  display: flex;
+  font-size: 225px;
+  justify-content: flex-end;
+}
+@media (max-width: 790px) {
+  h2 {
+    font-size: 135px;
+    justify-content: flex-start;
+  }
+}
+
+h3 {
+  display: flex;
+  font-size: 135px;
+  justify-content: center;
+}
+@media (max-width: 700px) {
+  h3 {
+    font-size: 80px;
+    justify-content: flex-start;
+  }
+}
+
+h4 {
+  font-size: 75px;
+  margin-left: 40px;
+}
+@media (max-width: 700px) {
+  h4 {
+    font-size: 65px;
+    justify-content: flex-start;
+  }
+}
+
+h5 {
+  font-size: 50px;
+  margin-left: 40px;
+}
+@media (max-width: 700px) {
+  h5 {
+    font-size: 35px;
+    justify-content: flex-start;
+  }
+}
+
+.events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  /*grid-template-rows: 1fr .9fr .7fr .7fr .4fr 1fr*/
+}
+
+.container {
+  padding: 18px;
+}
+@media (min-width: 400px) {
+  .container {
+    padding: 25px;
+  }
+}
+@media (min-width: 800px) {
+  .container {
+    padding: 32px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+.first-paragraph, .second-paragraph, .third-paragraph, .fourth-paragraph {
+  font-size: 25px;
 }

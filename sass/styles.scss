@@ -8,19 +8,13 @@ body {
   background-color: #088ca5;
 }
 
-.headlines{
-  
-  display: grid;
-  grid-template-columns: 1fr;  
-  
-}
 
-
-h1olor: white;
+ h1,h2, h3, h4, h5{   
+  color: white;
   margin: 0;  
   
-}, h2, h3, h4, h5{
-  c
+}
+  
 
 
 h1{
@@ -128,8 +122,7 @@ ul {
 list-style-type: none;
 }
 
-.moretype{
+.first-paragraph, .second-paragraph, .third-paragraph, .fourth-paragraph{
   font-size: 25px;
-  
   
 }
