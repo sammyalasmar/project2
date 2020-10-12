@@ -3,6 +3,7 @@
 }
 
 body {
+  color: black;
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
   background-color: #088ca5;
@@ -88,9 +89,9 @@ h5 {
   }
 }
 @media (min-width: 1280px) {
-  .container {
-    padding-right: 120px;
-    padding-left: 120px;
+  .container padding-right {
+    right: 120px;
+    left: 120px;
   }
 }
 
@@ -98,6 +99,6 @@ ul {
   list-style-type: none;
 }
 
-.first-paragraph, .second-paragraph, .third-paragraph, .fourth-paragraph {
+.event-list-one, .event-list-two, .event-list-three, .event-list-four {
   font-size: 25px;
 }
