@@ -20,6 +20,7 @@ h1 {
 @media (max-width: 700px) {
   h1 {
     font-size: 200px;
+    padding-left: 40px;
   }
 }
 
@@ -32,6 +33,7 @@ h2 {
   h2 {
     font-size: 135px;
     justify-content: flex-start;
+    padding-left: 40px;
   }
 }
 
@@ -40,10 +42,11 @@ h3 {
   font-size: 135px;
   justify-content: center;
 }
-@media (max-width: 700px) {
+@media (max-width: 980px) {
   h3 {
     font-size: 80px;
     justify-content: flex-start;
+    padding-left: 40px;
   }
 }
 
@@ -89,9 +92,9 @@ h5 {
   }
 }
 @media (min-width: 1280px) {
-  .container padding-right {
-    right: 120px;
-    left: 120px;
+  .container {
+    padding-right: 120px;
+    padding-left: 120px;
   }
 }
 
