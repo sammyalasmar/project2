@@ -100,7 +100,7 @@ h5 {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
   .container {
     padding-right: 1px;
     padding-left: 1px;
