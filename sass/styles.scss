@@ -5,10 +5,11 @@
 $color-blue: #088ca5;
 
 body {
+  background-color: $color-blue;
   color: black;
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background-color: $color-blue;
+
 }
 
 
@@ -137,8 +138,8 @@ h5 {
 
   @media (min-width: 500px) {
     padding: {
-      right: 1px;
       left: 1px;
+      right: 1px;
     }
   }
 
@@ -150,8 +151,8 @@ h5 {
   @media (min-width: 1280px) {
 
     padding: {
-      right: 120px;
       left: 120px;
+      right: 120px;
     }
   }
 }

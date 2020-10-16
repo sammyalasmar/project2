@@ -3,10 +3,10 @@
 }
 
 body {
+  background-color: #088ca5;
   color: black;
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background-color: #088ca5;
 }
 
 h1,
@@ -125,8 +125,8 @@ h5 {
 
 @media (min-width: 500px) {
   .container {
-    padding-right: 1px;
     padding-left: 1px;
+    padding-right: 1px;
   }
 }
 @media (min-width: 800px) {
@@ -136,8 +136,8 @@ h5 {
 }
 @media (min-width: 1280px) {
   .container {
-    padding-right: 120px;
     padding-left: 120px;
+    padding-right: 120px;
   }
 }
 
