@@ -12,160 +12,160 @@ body {
 }
 
 
- h1, h2, h3, h4, h5{   
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: white;
-  margin: 0;  
-  
+  margin: 0;
+
 }
-  
 
 
-h1{
+
+h1 {
   font-size: 300px;
-  
-   @media (max-width: 550px) {
+
+  @media (max-width: 550px) {
     font-size: 175px;
     padding-left: 14px;
-      margin-bottom:-30px
-    }     
-  
+    margin-bottom: -30px
+  }
+
   @media (max-width: 650px) {
     font-size: 200px;
     padding-left: 14px;
-    margin-bottom:-30px
-    } 
-  
+    margin-bottom: -30px
+  }
+
   @media (max-width: 750px) {
     font-size: 250px;
     padding-left: 20px;
-    margin-bottom:-30px
-    }    
+    margin-bottom: -30px
+  }
 }
 
 
-h2{
-  display: flex;  
-  font-size: 225px;  
+h2 {
+  display: flex;
+  font-size: 225px;
   justify-content: flex-end;
-  
+
   @media (max-width: 590px) {
     font-size: 115px;
     justify-content: flex-start;
-    padding-left: 40px;    
-  }   
-  
-   @media (max-width: 650px) {
+    padding-left: 40px;
+  }
+
+  @media (max-width: 650px) {
     font-size: 145px;
     justify-content: flex-start;
-    padding-left: 40px;    
-  }   
-  
+    padding-left: 40px;
+  }
+
   @media (max-width: 790px) {
     font-size: 165px;
     justify-content: flex-start;
     padding-left: 40px;
-    
-  }    
+
+  }
 }
 
 
-h3{
-  display: flex;  
-  font-size: 135px;  
+h3 {
+  display: flex;
+  font-size: 135px;
   justify-content: center;
-  
-  
+
+
   @media (max-width: 600px) {
     font-size: 65px;
     justify-content: flex-start;
     padding-left: 40px;
-    
-    } 
-  
+
+  }
+
   @media (max-width: 700px) {
     font-size: 75px;
     justify-content: flex-start;
     padding-left: 40px;
-    
-    } 
-  
+
+  }
+
   @media (max-width: 980px) {
     font-size: 95px;
     justify-content: flex-start;
     padding-left: 40px;
-    
-    }  
-  
+
+  }
+
 }
 
-h4{
-  
-  font-size: 75px;  
+
+h4 {
+
+  font-size: 75px;
   margin-left: 40px;
-  
-  
-   @media (max-width: 700px) {
+
+  @media (max-width: 700px) {
     font-size: 55px;
-    /*justify-content: flex-start; //not sure if i should add display flex*/
-    margin-left: 40px;   
-    
-    }     
+    margin-left: 40px;
+  }
 }
 
-h5{
-  
+h5 {
+
   font-size: 50px;
   margin-left: 40px;
-  
+
   @media (max-width: 700px) {
     font-size: 35px;
-    /*justify-content: flex-start; //not sure if i should add display flex*/
-    
-    }     
+  }
 }
 
 
 .events {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  
+
 }
 
 
 .container {
-  
-  
-  
-@media (min-width: 500px) {
+
+
+  @media (min-width: 500px) {
     padding: {
-    right: 1px;
-    left: 1px;
-     } 
-  
-  } 
-  
- 
+      right: 1px;
+      left: 1px;
+    }
+  }
+
+
   @media (min-width: 800px) {
     padding: 32px;
   }
 
   @media (min-width: 1280px) {
-    
-     padding: {
-    right: 120px;
-    left: 120px;
-     }    
+
+    padding: {
+      right: 120px;
+      left: 120px;
+    }
   }
 }
 
 
 ul {
 
-list-style-type: none;
+  list-style-type: none;
 }
 
-.event-list-one, .event-list-two, .event-list-three, .event-list-four{
+.event-list-one,
+.event-list-two,
+.event-list-three,
+.event-list-four {
   font-size: 25px;
-  
-}
 
+}

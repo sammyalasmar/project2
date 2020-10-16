@@ -9,7 +9,11 @@ body {
   background-color: #088ca5;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: white;
   margin: 0;
 }
@@ -100,7 +104,6 @@ h4 {
 @media (max-width: 700px) {
   h4 {
     font-size: 55px;
-    /*justify-content: flex-start; //not sure if i should add display flex*/
     margin-left: 40px;
   }
 }
@@ -112,7 +115,6 @@ h5 {
 @media (max-width: 700px) {
   h5 {
     font-size: 35px;
-    /*justify-content: flex-start; //not sure if i should add display flex*/
   }
 }
 
@@ -143,6 +145,9 @@ ul {
   list-style-type: none;
 }
 
-.event-list-one, .event-list-two, .event-list-three, .event-list-four {
+.event-list-one,
+.event-list-two,
+.event-list-three,
+.event-list-four {
   font-size: 25px;
 }
