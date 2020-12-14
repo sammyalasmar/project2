@@ -21,10 +21,10 @@ h5 {
 h1 {
   font-size: 300px;
 }
-@media (max-width: 550px) {
+@media (max-width: 750px) {
   h1 {
-    font-size: 175px;
-    padding-left: 14px;
+    font-size: 250px;
+    padding-left: 20px;
     margin-bottom: -30px;
   }
 }
@@ -35,11 +35,9 @@ h1 {
     margin-bottom: -30px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 550px) {
   h1 {
-    font-size: 250px;
-    padding-left: 20px;
-    margin-bottom: -30px;
+    font-size: 175px;
   }
 }
 
@@ -55,18 +53,16 @@ h2 {
     padding-left: 40px;
   }
 }
-@media (max-width: 650px) {
+@media (min-width: 591px) and (max-width: 650px) {
   h2 {
     font-size: 145px;
     justify-content: flex-start;
-    padding-left: 40px;
   }
 }
 @media (max-width: 790px) {
   h2 {
     font-size: 165px;
     justify-content: flex-start;
-    padding-left: 40px;
   }
 }
 

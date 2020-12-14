@@ -28,24 +28,33 @@ h5 {
 
 h1 {
   font-size: 300px;
-
-  @media (max-width: 550px) {
-    font-size: 175px;
-    padding-left: 14px;
-    margin-bottom: -30px
-  }
-
-  @media (max-width: 650px) {
-    font-size: 200px;
-    padding-left: 14px;
-    margin-bottom: -30px
-  }
-
+  
+  
   @media (max-width: 750px) {
     font-size: 250px;
     padding-left: 20px;
     margin-bottom: -30px
   }
+  
+  
+  
+   @media (max-width: 650px) {
+
+     font-size: 200px;
+   padding-left: 14px;
+    margin-bottom: -30px;
+
+  }
+  
+
+  @media (max-width: 550px) {
+    font-size: 175px;
+    
+  }
+
+  
+
+  
 }
 
 
@@ -53,23 +62,25 @@ h2 {
   display: flex;
   font-size: 225px;
   justify-content: flex-end;
+  
 
   @media (max-width: 590px) {
     font-size: 115px;
     justify-content: flex-start;
     padding-left: 40px;
+    
   }
 
-  @media (max-width: 650px) {
+  @media (min-width: 591px) and (max-width: 650px) {
     font-size: 145px;
     justify-content: flex-start;
-    padding-left: 40px;
+    
   }
 
   @media (max-width: 790px) {
     font-size: 165px;
     justify-content: flex-start;
-    padding-left: 40px;
+    
 
   }
 }
