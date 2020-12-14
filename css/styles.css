@@ -118,6 +118,10 @@ h5 {
   }
 }
 
+ul {
+  list-style-type: none;
+}
+
 .events {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -141,13 +145,6 @@ h5 {
   }
 }
 
-ul {
-  list-style-type: none;
-}
-
-.event-list-one,
-.event-list-two,
-.event-list-three,
-.event-list-four {
+.event-list {
   font-size: 25px;
 }
