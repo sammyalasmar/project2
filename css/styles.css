@@ -46,23 +46,21 @@ h2 {
   font-size: 225px;
   justify-content: flex-end;
 }
-@media (max-width: 590px) {
+@media (max-width: 990px) {
   h2 {
-    font-size: 115px;
+    font-size: 165px;
     justify-content: flex-start;
     padding-left: 40px;
   }
 }
-@media (min-width: 591px) and (max-width: 650px) {
+@media (max-width: 650px) {
   h2 {
     font-size: 145px;
-    justify-content: flex-start;
   }
 }
-@media (max-width: 790px) {
+@media (max-width: 590px) {
   h2 {
-    font-size: 165px;
-    justify-content: flex-start;
+    font-size: 115px;
   }
 }
 
@@ -71,9 +69,9 @@ h3 {
   font-size: 135px;
   justify-content: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 980px) {
   h3 {
-    font-size: 65px;
+    font-size: 95px;
     justify-content: flex-start;
     padding-left: 40px;
   }
@@ -81,15 +79,11 @@ h3 {
 @media (max-width: 700px) {
   h3 {
     font-size: 75px;
-    justify-content: flex-start;
-    padding-left: 40px;
   }
 }
-@media (max-width: 980px) {
+@media (max-width: 600px) {
   h3 {
-    font-size: 95px;
-    justify-content: flex-start;
-    padding-left: 40px;
+    font-size: 65px;
   }
 }
 
@@ -99,8 +93,7 @@ h4 {
 }
 @media (max-width: 700px) {
   h4 {
-    font-size: 55px;
-    margin-left: 40px;
+    font-size: 45px;
   }
 }
 
@@ -123,24 +116,22 @@ ul {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-@media (min-width: 500px) {
+.container {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media (max-width: 800px) {
+  .container {
+    padding: 32px;
+  }
+}
+@media (max-width: 500px) {
   .container {
     padding-left: 1px;
     padding-right: 1px;
   }
 }
-@media (min-width: 800px) {
-  .container {
-    padding: 32px;
-  }
-}
-@media (min-width: 1280px) {
-  .container {
-    padding-left: 120px;
-    padding-right: 120px;
-  }
-}
 
 .event-list {
-  font-size: 25px;
+  font-size: 20px;
 }

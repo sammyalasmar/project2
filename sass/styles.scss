@@ -34,14 +34,12 @@ h1 {
     font-size: 250px;
     padding-left: 20px;
     margin-bottom: -30px
-  }
-  
-  
+  }  
   
    @media (max-width: 650px) {
 
-     font-size: 200px;
-   padding-left: 14px;
+    font-size: 200px;
+    padding-left: 14px;
     margin-bottom: -30px;
 
   }
@@ -51,11 +49,9 @@ h1 {
     font-size: 175px;
     
   }
-
-  
-
-  
+ 
 }
+
 
 
 h2 {
@@ -63,57 +59,56 @@ h2 {
   font-size: 225px;
   justify-content: flex-end;
   
-
-  @media (max-width: 590px) {
-    font-size: 115px;
-    justify-content: flex-start;
-    padding-left: 40px;
-    
-  }
-
-  @media (min-width: 591px) and (max-width: 650px) {
-    font-size: 145px;
-    justify-content: flex-start;
-    
-  }
-
-  @media (max-width: 790px) {
+  
+   @media (max-width: 990px) {
     font-size: 165px;
     justify-content: flex-start;
-    
+    padding-left: 40px;    
 
   }
+  
+    @media (max-width: 650px) {
+    font-size: 145px; 
+    
+  }
+  
+
+  @media (max-width: 590px) {
+    font-size: 115px;   
+   
+    }
 }
+
+
 
 
 h3 {
   display: flex;
   font-size: 135px;
   justify-content: center;
-
-
-  @media (max-width: 600px) {
-    font-size: 65px;
-    justify-content: flex-start;
-    padding-left: 40px;
-
-  }
-
-  @media (max-width: 700px) {
-    font-size: 75px;
-    justify-content: flex-start;
-    padding-left: 40px;
-
-  }
-
-  @media (max-width: 980px) {
+  
+   @media (max-width: 980px) {
     font-size: 95px;
     justify-content: flex-start;
     padding-left: 40px;
 
   }
 
+  
+  @media (max-width: 700px) {
+    font-size: 75px;    
+
+  }
+
+
+  @media (max-width: 600px) {
+    font-size: 65px;
+  }
+
+
 }
+
+
 
 
 h4 {
@@ -122,10 +117,12 @@ h4 {
   margin-left: 40px;
 
   @media (max-width: 700px) {
-    font-size: 55px;
-    margin-left: 40px;
+    font-size: 45px;
+    
   }
 }
+
+
 
 h5 {
 
@@ -136,6 +133,8 @@ h5 {
     font-size: 35px;
   }
 }
+
+
 
 ul {
 
@@ -151,33 +150,35 @@ ul {
 
 
 .container {
+  
+  padding: {
+      left: 120px;
+      right: 120px;
+    }
+    
 
 
-  @media (min-width: 500px) {
+  @media (max-width: 800px) {
+    padding: 32px;
+  }
+
+    
+    
+    @media (max-width: 500px) {
     padding: {
       left: 1px;
       right: 1px;
     }
   }
 
-
-  @media (min-width: 800px) {
-    padding: 32px;
-  }
-
-  @media (min-width: 1280px) {
-
-    padding: {
-      left: 120px;
-      right: 120px;
-    }
-  }
+  
 }
 
 
 
 
+
 .event-list{
-  font-size: 25px;
+  font-size: 20px;
 
 }
